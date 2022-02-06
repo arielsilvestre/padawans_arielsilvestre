@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.navBar{
+  background-color: lightblue;
+  height: 3em;
+}
+
+button{
+  margin: 1em;
+  padding: 5px;
+  border: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
