@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import CartWidget from './components/CartWidget/CartWidget';
-
+import {useEffect} from 'react' // para que puedan ejecutarse
 
 function App() {
   return (
