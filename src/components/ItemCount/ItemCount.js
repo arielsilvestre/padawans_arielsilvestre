@@ -1,7 +1,7 @@
 import { tab } from "@testing-library/user-event/dist/tab"
 import { useState } from "react"
  
-const ItemCount = ({stock = 1, initial = 0, onAdd}) => {
+const ItemCount = ({stock, initial, onAdd}) => {
     const[quantity,setQuantity] = useState(initial)
 
 
